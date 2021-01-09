@@ -1,0 +1,34 @@
+[
+    {
+        "title": "Why we use <br> element?",
+        "answers": ["To Make Text Bold", 
+                    "To Make Text Italic", 
+                    "To Add Breakline",
+                    "To Create Horizontal Line"],
+        "correctIndex": 2
+    },
+    {
+        "title": "Is <img> Element Has Attribute href?",
+        "answers": ["Yes", 
+                    "No Its For Anchor Tag <a>", 
+                    "All Elements Has This Attribute",
+                    "Answer 1 And 3 Is Right"],
+        "correctIndex": 1
+    },
+    {
+        "title": "How Can We Make Element Text Bold?",
+        "answers": ["Putting It Inside <b> Tag", 
+                    "Putting It Inside <strong> Tag", 
+                    "Customizing It With Font-Weight Property In CSS",
+                    "All Answers Is Right"],
+        "correctIndex": 3
+    },
+    {
+        "title": "What Is The Right Hierarchy For Creating Part Of Page?",
+        "answers": ["<h2> Then <p> Then <h1> Then <p> Then <h3> Then <p> Then <img>", 
+                    "<h1> Then <p> Then <h3> Then <p> Then <h2> Then <p> Then <img>", 
+                    "<h2> Then <p> Then <h3> Then <p> Then <h1> Then <p> Then <img>",
+                    "All Solutions Is Wrong"],
+        "correctIndex": 3
+    }
+]

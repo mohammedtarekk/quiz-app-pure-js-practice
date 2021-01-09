@@ -1,0 +1,124 @@
+/* GENERAL */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body{
+    height: 100vh;
+    background-color: #d6efc7;
+    font-family: Open Sans
+}
+
+button:focus{outline: none}
+.text-center{text-align: center}
+
+.hide{display: none}
+
+.clear-fix{clear: both}
+/* END GENERAL */
+
+.main{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center
+}
+
+.startup-window h2{
+    font-size: 60px;
+    background-color: #96bb7c;
+    color: #3e3e3e;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 17px -2px
+}
+
+.startup-window button{
+    font-size: 26px;
+    padding: 7px 10px;
+    background-color: #d6efc7;
+    border: 1px solid #545454;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: .7s all;
+}
+
+.startup-window button:hover{opacity: .7}
+
+.quiz-window{
+    width: 85%;
+    height: 75%;
+    border: 1px solid #b7b7b7;
+    padding: 20px;
+    background-color: #218478;
+    border-radius: 19px;
+    box-shadow: 0px 0px 9px -4px #333
+}
+
+.quiz-window .quiz-num{
+    float: left;
+    font-size: 20px;
+    color: #fff;
+    background-color: #82a06d;
+    padding: 3px 7px;
+    box-shadow: 0px 0px 7px -4px #333
+}
+
+.quiz-window .timer{
+    float: right;
+    font-size: 20px;
+    color: #fff;
+    background-color: #82a06d;; 
+    padding: 3px 7px;
+    box-shadow: 0px 0px 7px -4px #333
+}
+
+.quiz-window .question{
+    text-align: left;
+    padding: 20px;
+    color: #fff;
+    margin: 20px 0 0 0
+}
+
+.quiz-window .question .label{
+    margin-bottom: 20px;
+    font-size: 25px
+}
+
+
+.quiz-window .question .answers-box > div{
+    background-color: #82a06d;
+    padding: 27px;
+    border-bottom: 1px solid #c1c1c1;
+}
+
+.quiz-window .question .answers-box > div label{margin-left: 7px}
+
+.quiz-window .question .answers-box > div:last-of-type{border-bottom: none}
+
+.quiz-window .controls{
+    overflow: hidden;
+    padding: 0 20px
+}
+
+.quiz-window .controls .bullets{
+    float: left
+}
+
+.quiz-window .controls .bullets span{
+    width: 20px;
+    height: 20px;
+    background-color: #218478;
+    display: inline-block;
+    border-radius: 50%;
+    border: 1px solid #d6efc7
+}
+
+.quiz-window .controls .bullets span.on{background-color: #d6efc7}
+
+.quiz-window .controls button{
+    float: right;
+    padding: 2px 20px;
+    background-color: #d6efc7;
+    border: 1px solid #fff;
+    font-weight: bold;
+    cursor: pointer
+}

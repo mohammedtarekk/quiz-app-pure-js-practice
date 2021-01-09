@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Quiz Application</title>
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="main section">
+            <div id="startupWindow" class="startup-window text-center">
+                <h2>Quiz Application</h2>
+                <button id="startButton">Start Quiz!</button>
+            </div>
+            
+            <div id="quizWindow" class="quiz-window text-center hide">
+                <div class="quiz-num">Question No. <span>1</span></div>
+                <div class="timer">
+                    <span class="min">00</span>:
+                    <span class="sec">00</span>
+                </div>
+
+                <div class="clear-fix"></div>
+
+                <div class="question">
+                    <div class="label">What Is The Right Hierarchy For Creating Part Of Page</div>
+                    <div class="answers-box">
+                        <div class="item">
+                            <input name="ques" type="radio" id="a1">
+                            <label for="a1">All Tags Is Exists in HTML</label>
+                        </div>
+                        <div class="item">
+                            <input name="ques" type="radio" id="a2">
+                            <label for="a2">All Tags Is Exists in HTML</label>
+                        </div>
+                        <div class="item">
+                            <input name="ques" type="radio" id="a3">
+                            <label for="a3">All Tags Is Exists in HTML</label>
+                        </div>
+                        <div class="item">
+                            <input name="ques" type="radio" id="a4">
+                            <label for="a4">All Tags Is Exists in HTML</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="controls">
+                    <div class="bullets">
+                        <span class="on"></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <button id="navButton">NEXT</button>
+                    <div class="clear-fix"></div>
+                </div>
+
+            </div>
+        </div>
+
+        <script src="quiz_script.js"></script>
+    </body>
+</html>
