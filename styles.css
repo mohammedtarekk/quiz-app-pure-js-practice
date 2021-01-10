@@ -45,7 +45,6 @@ button:focus{outline: none}
 
 .quiz-window{
     width: 85%;
-    height: 75%;
     border: 1px solid #b7b7b7;
     padding: 20px;
     background-color: #218478;
@@ -53,7 +52,7 @@ button:focus{outline: none}
     box-shadow: 0px 0px 9px -4px #333
 }
 
-.quiz-window .quiz-num{
+.quiz-window .ques-num{
     float: left;
     font-size: 20px;
     color: #fff;
@@ -109,7 +108,8 @@ button:focus{outline: none}
     background-color: #218478;
     display: inline-block;
     border-radius: 50%;
-    border: 1px solid #d6efc7
+    border: 1px solid #d6efc7;
+    margin-right: 5px
 }
 
 .quiz-window .controls .bullets span.on{background-color: #d6efc7}
